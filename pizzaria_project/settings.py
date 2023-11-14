@@ -30,7 +30,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['pizzacomparator.azurewebsites.net']
 CSRF_COOKIE_SECURE = True
-
+CSRF_TRUSTED_ORIGINS = ['pizzacomparator.azurewebsites.net']
 
 # Application definition
 
