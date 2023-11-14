@@ -28,7 +28,7 @@ with open(os.path.join(BASE_DIR, 'key.txt')) as f:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://pizzacomparator.azurewebsites.net']
+ALLOWED_HOSTS = ['https://pizzacomparator.azurewebsites.net','pizzacomparator.azurewebsites.net']
 CSRF_COOKIE_SECURE = True
 CSRF_TRUSTED_ORIGINS = ['https://pizzacomparator.azurewebsites.net']
 
